@@ -13,6 +13,8 @@ app.use(passport.initialize());
 passport.use( require("./config/jwtPassportStrategy") );
 
 
+
+
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
